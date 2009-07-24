@@ -3,3 +3,5 @@
 * Deprecated :username and :password Grackle::Client constructor params
 * Changed multipart upload implementation and removed dependency on httpclient gem
 * Added dependency on mime-types gem
+== 0.1.2.2 (2009-07-24)
+* Added support for ActiveSupport::JSON

@@ -127,7 +127,7 @@ You'll need the following gems to use all features of Grackle:
 == INSTALL:
 
   sudo gem sources -a http://gems.github.com
-  sudo gem install hayesdavis-grackle
+  sudo gem install ben5516-grackle
 
 == LICENSE:
 
