@@ -11,7 +11,7 @@ module Grackle
     class JSONHandler
     
       unless Object.const_defined?("ActiveSupport") and ActiveSupport.const_defined?("JSON")
-	    require 'json/pure'
+	    require 'json'
 	    def json_decode(str)
 	      JSON.parse(str)
 	    end
