@@ -10,8 +10,20 @@ module Grackle
     # Decodes JSON Twitter API responses
     class JSONHandler
     
+      unless Object.const_defined?("ActiveSupport") and ActiveSupport.const_defined?("JSON")
+	    require 'json/pure'
+	    def json_decode(str)
+	      JSON.parse(str)
+	    end
+	  else
+        def json_decode(str)
+		  ActiveSupport::JSON.decode(str)
+	    end
+      end
+
+
       def decode_response(res)
-        json_result = JSON.parse(res)
+        json_result = json_decode(res)
         load_recursive(json_result)
       end
       

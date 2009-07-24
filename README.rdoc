@@ -19,6 +19,8 @@ will potentially require, however, some modifications to your code that uses Gra
 
 Grackle supports both OAuth and HTTP basic authentication.
 
+This is Grackle for Rails, which fixes a persistent JSON issue with Rails.
+
 ==USING GRACKLE
 
 Before you do anything else, you'll need to
