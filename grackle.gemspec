@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = %q{hayes@appozite.com}
   s.files = ["History.txt", "README.rdoc", "grackle.gemspec", "lib/grackle.rb", "lib/grackle/client.rb", "lib/grackle/handlers.rb", "lib/grackle/transport.rb", "lib/grackle/utils.rb", "test/test_grackle.rb", "test/test_helper.rb", "test/test_client.rb", "test/test_handlers.rb"]
   s.has_rdoc = true
-  s.homepage = %q{http://github.com/hayesdavis/grackle}
+  s.homepage = %q{http://github.com/ben5516/grackle}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8","--main=README.rdoc"]
   s.extra_rdoc_files = ['README.rdoc']
   s.require_paths = ["lib"]
